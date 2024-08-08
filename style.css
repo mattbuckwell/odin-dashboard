@@ -7,7 +7,7 @@
 .container {
     display:grid;
     height: 100vh;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1.1fr 4fr;
     grid-template-rows: 1fr 4fr;
     grid-template-areas: 
         "sidebar header"
@@ -19,6 +19,50 @@
 .sidebar-container {
     background-color: aqua;
     grid-area: sidebar;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr 5fr;
+    grid-template-areas: 
+        "icons brand"
+        "icons nav"
+        "icons settings"
+    ;
+}
+
+.sidebar-container li {
+    list-style: none;
+}
+
+.icons {
+    background-color: darkslateblue;
+    grid-area: icons;
+}
+
+.brand {
+    background-color: #000;
+    grid-area: brand;
+    align-self: center;
+}
+
+.brand li {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.menu-items-1 {
+    background-color: darkkhaki;
+    grid-area: nav;
+}
+
+.menu-items-2 {
+    background-color: beige;
+    grid-area: settings;
+}
+
+.menu-items-1 li,
+.menu-items-2 li {
+    font-size: 1.2rem;
+    padding-bottom: 15px;
 }
 
 /* -----  HEADER  ----- */
