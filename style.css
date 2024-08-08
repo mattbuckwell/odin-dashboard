@@ -38,6 +38,11 @@
     grid-area: icons;
 }
 
+.icons .icon-item {
+    height: 25px;
+    fill: #fff;
+}
+
 .brand {
     background-color: #000;
     grid-area: brand;
