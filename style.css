@@ -117,7 +117,7 @@ p {
     align-items: center;
 }
 
-.searchbar svg {
+.header-icons {
     height: 25px;
     margin-right: 15px;
 }
@@ -132,7 +132,28 @@ p {
 
 .header-user-acc {
     grid-area: account;
-    background-color: burlywood;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 5px;
+}
+
+.user-account {
+    display: flex;
+    align-items: center;
+}
+
+.user-account img {
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.user-account p {
+    font-weight: 900;
+    margin-right: 70px;
 }
 
 .header-user {
@@ -157,6 +178,7 @@ p {
     border-radius: 20px;
     margin-right: 20px;
     font-size: 0.9rem;
+    font-weight: 500;
 }
 
 
