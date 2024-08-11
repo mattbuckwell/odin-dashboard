@@ -1,3 +1,7 @@
+:root {
+    --main-color: #0ea5e9;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -12,8 +16,8 @@ p {
 .container {
     display:grid;
     height: 100vh;
-    grid-template-columns: 1.1fr 4fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
     grid-template-areas: 
         "sidebar header"
         "sidebar main"
@@ -22,7 +26,7 @@ p {
 
 /* -----  SIDEBAR  ----- */
 .sidebar-container {
-    background-color: rgb(9, 108, 221);
+    background-color: var(--main-color);
     grid-area: sidebar;
     display: grid;
     grid-template-columns: 1fr;
@@ -49,7 +53,7 @@ p {
 
 .sidebar-brand {
     grid-area: brand;
-    background-color: rgb(9, 108, 221);
+    background-color: var(--main-color);
     display: flex;
     align-items: center;   
 }
@@ -66,13 +70,6 @@ p {
     color: #fff;
 }
 
-.sidebar-nav {
-    grid-area: nav;
-    background-color: rgb(9, 108, 221);
-    display: flex;
-    align-items: center;
-}
-
 .sidebar-nav li,
 .sidebar-setting li {
     display: flex;
@@ -80,17 +77,66 @@ p {
     margin-bottom: 20px;
 }
 
+.sidebar-nav {
+    grid-area: nav;
+    background-color: var(--main-color);
+    display: flex;
+    align-items: center;
+}
+
 .sidebar-setting {
     grid-area: setting;
-    background-color: rgb(9, 108, 221);
+    background-color: var(--main-color);
     display: flex;
 }
 
 /* -----  HEADER  ----- */
 .header-container {
-    background-color: cornflowerblue;
+    background-color: #fff;
     grid-area: header;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr 1.5fr;
+    grid-template-areas: 
+        "search account"
+        "user buttons"
+    ;
 }
+
+.header-searchbar {
+    grid-area: search;
+    background-color: beige;
+}
+
+.header-user-acc {
+    grid-area: account;
+    background-color: burlywood;
+}
+
+.header-user {
+    grid-area: user;
+    background-color: firebrick;
+}
+
+.header-buttons {
+    grid-area: buttons;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 90px;
+    height: 35px;
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin-right: 20px;
+    font-size: 0.9rem;
+}
+
 
 /* -----  MAIN  ----- */
 .main-content-container {
