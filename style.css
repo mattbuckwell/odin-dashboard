@@ -251,6 +251,36 @@ p {
     border-left: 10px solid orange;
 }
 
+.card-title,
+.card-info {
+    margin-left: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.card-info {
+    padding-top: 5px;
+}
+
+.card-info p{
+    font-size: 0.9rem;
+    color: darkgray
+}
+
+.card-icons {
+    display: flex;
+    justify-content: end;
+    margin: 40px 20px 0 0;
+}
+
+.card-icons svg {
+    height: 22px;
+    margin-left: 25px;
+}
+
 .announcement {
     background-color: cadetblue;
     grid-area: announce;
