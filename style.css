@@ -217,4 +217,27 @@ p {
 .main-content-container {
     background-color: coral;
     grid-area: main;
+    display: grid;
+    grid-template-columns: 2.6fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "project announce"
+        "project trending"
+    ;
+    gap: 20px;
+}
+
+.projects {
+    background-color: burlywood;
+    grid-area: project;
+}
+
+.announcement {
+    background-color: cadetblue;
+    grid-area: announce;
+}
+
+.trending {
+    background-color: darkorchid;
+    grid-area: trending;
 }
