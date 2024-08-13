@@ -215,7 +215,7 @@ p {
 
 /* -----  MAIN  ----- */
 .main-content-container {
-    background-color: coral;
+    background-color: var(--secondary-color);
     grid-area: main;
     display: grid;
     grid-template-columns: 2.6fr 1fr;
@@ -225,11 +225,30 @@ p {
         "project trending"
     ;
     gap: 20px;
+    padding: 20px;
 }
 
-.projects {
-    background-color: burlywood;
+.projects-container {
     grid-area: project;
+}
+
+.projects-header h2 {
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.projects-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    height: 210px;
+    border-radius: 10px;
+    border-left: 10px solid orange;
 }
 
 .announcement {
