@@ -233,7 +233,7 @@ p {
     grid-area: project;
 }
 
-.projects-header h2 {
+.subtitle {
     padding-bottom: 10px;
     font-size: 1.2rem;
 }
@@ -288,10 +288,44 @@ p {
     margin-left: 25px;
 }
 
+/* ---- Announcements Section ---- */
 .announcement {
-    background-color: cadetblue;
     grid-area: announce;
 }
+
+.announcement-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-height: 320px;
+    padding: 20px 10px;
+}
+
+.first-card {
+    padding: 10px 20px;
+    line-height: 13px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.memo {
+    font-weight: 500;
+    color: darkgray;
+    font-size: 0.7rem;
+}
+
+hr {
+    margin-top: 15px;
+    border: 1px solid rgb(238, 237, 237);
+}
+
+/* ---- Trending Section ---- */
 
 .trending {
     background-color: darkorchid;
