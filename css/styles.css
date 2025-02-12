@@ -8,14 +8,11 @@
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
     grid-template-areas: 
-        "sidebar header header header header"
-        "sidebar main main main main"
-        "sidebar main main main main"
-        "sidebar main main main main"
-        "sidebar main main main main"
+        "sidebar header"
+        "sidebar main"
     ;
 }
 
