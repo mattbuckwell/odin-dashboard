@@ -4,7 +4,32 @@
     box-sizing: border-box;
 }
 
-.container {
+.project-container {
     width: 100vw;
     height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+        "sidebar header header header header"
+        "sidebar main main main main"
+        "sidebar main main main main"
+        "sidebar main main main main"
+        "sidebar main main main main"
+    ;
+}
+
+.sidebar-container {
+    grid-area: sidebar;
+    background-color: aqua;
+}
+
+.header-container {
+    grid-area: header;
+    background-color: beige;
+}
+
+.main-container {
+    grid-area: main;
+    background-color: chocolate;
 }
