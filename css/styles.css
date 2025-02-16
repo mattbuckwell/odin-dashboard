@@ -81,4 +81,29 @@
 .main-container {
     grid-area: main;
     background-color: beige;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "projects announcements"
+        "projects trending"
+    ;
+}
+
+.projects {
+    grid-area: projects;
+    background-color: beige;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.announcements {
+    grid-area: announcements;
+    background-color: crimson;
+}
+
+.trending {
+    grid-area: trending;
+    background-color: darkgray;
 }
