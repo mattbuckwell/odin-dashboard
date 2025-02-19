@@ -43,12 +43,21 @@
     fill: #fff;
 }
 
+.sidebar-icons {
+    height: 30px;
+}
+
 .nav {
     grid-area: nav;
     background-color: blueviolet;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.nav li {
+    display: flex;
+    align-items: center;
 }
 
 .settings {
