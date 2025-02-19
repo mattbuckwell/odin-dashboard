@@ -38,6 +38,11 @@
     justify-content: center;
 }
 
+.company-icon {
+    height: 50px;
+    fill: #fff;
+}
+
 .nav {
     grid-area: nav;
     background-color: blueviolet;
