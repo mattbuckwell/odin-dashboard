@@ -44,7 +44,7 @@
 }
 
 .sidebar-icons {
-    height: 30px;
+    height: 35px;
 }
 
 .nav {
@@ -65,6 +65,11 @@
     background-color: brown;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.settings li {
+    display: flex;
     align-items: center;
 }
 
