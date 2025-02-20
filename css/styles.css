@@ -36,7 +36,12 @@
     background-color: blue;
     display: flex;
     align-items: center;
-    justify-content: center;
+}
+
+.logo p {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: bold;
 }
 
 .company-icon {
@@ -45,21 +50,19 @@
 }
 
 .sidebar-icons {
-    height: 35px;
+    height: 25px;
     fill: #fff;
 }
 
 .sidebar-text {
     color: #fff;
     font-size: 1.4rem;
+    font-weight: bold;
 }
 
 .nav {
     grid-area: nav;
     background-color: blueviolet;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .nav li {
@@ -70,9 +73,6 @@
 .settings {
     grid-area: settings;
     background-color: brown;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .settings li {
