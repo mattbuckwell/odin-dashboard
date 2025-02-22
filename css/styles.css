@@ -36,12 +36,15 @@
     grid-area: logo;
     display: flex;
     align-items: center;
+    padding-left: 30px;
 }
 
 .logo p {
     color: #fff;
     font-size: 1.6rem;
     font-weight: bold;
+    margin-left: 20px;
+    
 }
 
 .company-icon {
@@ -56,9 +59,9 @@
 
 .sidebar-text {
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 35px;
 }
 
 .nav,
@@ -70,6 +73,7 @@
     grid-area: nav;
     display: flex;
     align-items: center;
+    padding-top: 20px;
 }
 
 .nav li {
@@ -80,6 +84,7 @@
 
 .settings {
     grid-area: settings;
+    padding-top: 30px;
 }
 
 .settings li {
