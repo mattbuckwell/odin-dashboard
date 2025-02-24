@@ -123,6 +123,8 @@
 .account-btns {
     grid-area: account-btns;
     background-color: chocolate;
+    display: flex;
+    align-items: center;
 }
 
 
