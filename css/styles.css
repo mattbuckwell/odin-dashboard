@@ -127,6 +127,19 @@
     align-items: center;
 }
 
+.account-btns .btn {
+    background-color: #007FFF;
+    border: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 700;
+    width: 90px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
 
 /* ------ MAIN ------ */
 .main-container {
