@@ -122,7 +122,6 @@
 
 .account-btns {
     grid-area: account-btns;
-    background-color: chocolate;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -135,8 +134,8 @@
     color: #fff;
     font-size: 0.9rem;
     font-weight: 700;
-    width: 90px;
-    height: 35px;
+    width: 100px;
+    height: 40px;
     border-radius: 20px;
     cursor: pointer;
     margin-right: 30px;
