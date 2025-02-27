@@ -107,7 +107,19 @@
 
 .search {
     grid-area: search;
-    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.search-field {
+    margin-left: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #e2e8f0;
+    height: 30px;
+    width: 100%;
+    padding-left: 15px;
 }
 
 .account {
@@ -125,6 +137,7 @@
 
 .icon {
     height: 25px;
+    cursor: pointer;
 }
 
 .account-img {
