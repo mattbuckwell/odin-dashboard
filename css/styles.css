@@ -210,9 +210,16 @@
 .projects {
     grid-area: projects;
     background-color: beige;
+}
+
+.project-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+}
+
+.project-card {
+    height: 200px;
 }
 
 .announcements {
