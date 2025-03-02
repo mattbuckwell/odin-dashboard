@@ -205,6 +205,8 @@
         "projects announcements"
         "projects trending"
     ;
+    padding: 20px;
+    gap: 20px;
 }
 
 .projects {
@@ -215,10 +217,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
 }
 
 .project-card {
-    height: 200px;
+    height: 190px;
+    border: 1px solid red;
+}
+
+.card-icons svg {
+    height: 22px;
 }
 
 .announcements {
