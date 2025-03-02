@@ -197,7 +197,7 @@
 /* ------ MAIN ------ */
 .main-container {
     grid-area: main;
-    background-color: beige;
+    background-color: #e2e8f0;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -209,7 +209,6 @@
 
 .projects {
     grid-area: projects;
-    background-color: beige;
 }
 
 .project-cards {
