@@ -232,6 +232,7 @@
     border-radius: 10px;
     padding-left: 20px;
     background-color: #fff;
+    position: relative;
 }
 
 .card-title {
@@ -246,9 +247,12 @@
 }
 
 .card-icons {
+    width: 100%;
     display: flex;
     justify-content: flex-end;
-    margin-top: 40px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
 }
 
 .card-icons svg {
