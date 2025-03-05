@@ -291,6 +291,11 @@
     color: darkgray;
 }
 
+.card hr {
+    margin-top: 15px;
+    border: 1px solid rgb(238, 237, 237);
+}
+
 .trending {
     grid-area: trending;
     background-color: darkgray;
