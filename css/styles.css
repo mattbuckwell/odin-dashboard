@@ -262,7 +262,16 @@
 
 .announcements {
     grid-area: announcements;
-    background-color: crimson;
+}
+
+.announce-card {
+    height: 90%;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .trending {
