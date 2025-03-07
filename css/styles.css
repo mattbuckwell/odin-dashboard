@@ -267,7 +267,7 @@
 }
 
 .announce-card {
-    height: 90%;
+    height: 88%;
     background-color: #fff;
     display: grid;
     grid-template-columns: 1fr;
@@ -285,6 +285,7 @@
 .card h3 {
     font-weight: bold;
     font-size: 0.8rem;
+    margin-bottom: 3px;
 }
 
 .card p {
@@ -303,7 +304,7 @@
 }
 
 .trending-card {
-    height: 90%;
+    height: 88%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
