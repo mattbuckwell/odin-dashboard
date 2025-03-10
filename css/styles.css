@@ -85,7 +85,8 @@
     padding-top: 20px;
 }
 
-.nav li {
+.nav li,
+.settings li {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
@@ -96,11 +97,11 @@
     padding-top: 30px;
 }
 
-.settings li {
+/* .settings li {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
-}
+} */
 
 /* ------ HEADER ------ */
 .header-container {
