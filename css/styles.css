@@ -1,3 +1,7 @@
+:root {
+    --project-blue: #007FFF;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -29,7 +33,7 @@
         "nav"
         "settings"
     ;
-    background-color: #007FFF;
+    background-color: var(--project-blue);
 }
 
 .logo {
@@ -183,7 +187,7 @@
 }
 
 .account-btns .btn {
-    background-color: #007FFF;
+    background-color: var(--project-blue);
     border: none;
     color: #fff;
     font-size: 0.9rem;
