@@ -280,7 +280,7 @@
     background-color: var(--white);
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 var(--project-shadow);
     padding: 20px 10px;
